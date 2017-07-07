@@ -1,0 +1,9 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <Page.actionBar>
+        <ActionBar title="HTTP Requests"></ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <Button text="GET" tap="getRequest" />
+        <Button text="POST" tap="postRequest" />
+    </StackLayout>
+</Page>
